@@ -1,0 +1,152 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: url(./wallpaper.jpg) no-repeat center center fixed; /* Replace with your image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px; /* Added margin around the body for spacing */
+    border-style:groove;
+    border-color: gray;
+    background-color:#f0f7f4 ;
+    
+
+  }
+  
+  .quiz-container {
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency for better readability */
+    padding: 30px; /* Increased padding for more space inside */
+    border-radius: 12px; /* Slightly larger border radius for a smoother look */
+    box-shadow: 0 6px 12px white(0, 0, 0, 0.2); /* Bigger shadow for more impact */
+    text-align: center;
+    max-width: 500px; /* Increased max-width for larger container */
+    width: 100%;
+    margin: 20px; /* Added margin to prevent touching the edges */
+  }
+  
+  h1 {
+    margin-bottom: 30px; /* Increased margin for more space */
+    color:white;
+    font-size: 32px; /* Larger font size for the heading */
+  }
+
+  h3{
+    color: white;
+font-weight: bold;
+  }
+  
+  #question-container{
+    color: white;
+    
+  }
+  
+  #answers {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Increased gap between answer options */
+    margin: 30px 0; /* Increased margin around answers */
+  }
+  
+  .btn {
+    padding: 15px; /* Larger padding for buttons */
+    font-size: 18px; /* Larger font size for buttons */
+    color: #fff;
+    background: #007BFF;
+    border: none;
+    border-radius: 6px; /* Slightly larger border radius for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make buttons take up the full width */
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+  }
+  
+  .correct {
+    background-color: #28a745 !important; /* Green for correct */
+    color: white;
+  }
+  
+  .incorrect {
+    background-color: #dc3545 !important; /* Red for incorrect */
+    color: white;
+  }
+  
+  .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+  
+
+
+
+
+/* style.css
+body {
+    font-family: Arial, sans-serif;
+    background: url('./DALL·E\ 202-01-17\ 21.37.00\ -\ A\ creative\ and\ colorful\ background\ image\ for\ a\ quiz\ app.\ The\ image\ should\ feature\ abstract\ geometric\ shapes\,\ question\ marks\,\ and\ playful\ icons\,\ symbol.webp') no-repeat center center fixed; /* Replace with your image */
+    /* background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+   */
+  /* .quiz-container {
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency for better readability */
+    /* padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 500px;
+  } */
+   */
+  /* h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #answers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+  }
+  
+  .correct { */
+    /* background-color: #28a745 !important; /* Green for correct */
+    /* color: white;
+  } */ */
+  
+  /* .incorrect {
+    background-color: #dc3545 !important; /* Red for incorrect */
+    color: white;
+  /* } */ */
+  
+  /* .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+  } */
+  
+   */
